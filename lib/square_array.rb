@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+  squares = []
+  
+  i = 0
+  while i < array.size do
+    squares << array[i]**2
+    i+=1
+  end
+  
+  squares
 end
