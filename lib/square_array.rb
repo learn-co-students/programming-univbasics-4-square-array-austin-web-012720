@@ -1,7 +1,7 @@
 def square_array(array)
-  i=0 
-  while i<array.size do
-    array[i] = array[i]**2 
-    i++
+  
+  for i in 0...array.length do
+    array[i] = array[i]*array[i] 
   end
+  return array
 end
